@@ -1,7 +1,29 @@
-requests
-beautifulsoup4
-pandas
-streamlit
-plotly
-forex-python
-schedule
+# Web Scraping
+beautifulsoup4==4.12.3
+requests==2.31.0
+lxml==5.1.0
+playwright==1.40.0  # Headless browser for bypassing 403 errors
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+
+# Database
+sqlite3  # Built-in to Python
+
+# Currency Conversion
+forex-python==1.8
+
+# Dashboard
+streamlit==1.29.0
+plotly==5.18.0
+altair==5.2.0
+
+# Utilities
+python-dotenv==1.0.0
+schedule==1.2.1
+
+# Testing & Quality
+pytest==7.4.3
+black==23.12.1
+flake8==7.0.0
